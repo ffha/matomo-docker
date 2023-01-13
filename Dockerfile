@@ -1,6 +1,4 @@
-FROM php:8.1-apache
-
-LABEL maintainer="pierre@piwik.org"
+FROM php:7.4-apache
 
 ENV PHP_MEMORY_LIMIT=256M
 
